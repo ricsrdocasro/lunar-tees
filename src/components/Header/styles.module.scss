@@ -1,0 +1,92 @@
+.HeaderContainer {
+    background: var(--white);
+    height: 10rem;
+
+    display: flex;
+    align-items: center;
+
+    padding: 2rem 4rem;
+
+    border-bottom: 1px solid var(--gray-100);
+
+    p {
+        margin-left: 2rem;
+        padding: 0.25rem 0 0.25rem 2rem;
+        border-left: 1px solid var(--gray-100); 
+    } 
+
+    button {
+        border: none;
+        background: transparent;
+    }
+
+    img {
+        max-width: 128px;
+    }
+
+    .comprasContainer {
+        margin-left: auto;
+        display: flex;
+
+        button {
+            border: none;
+            background: transparent;
+            max-height: 128px;
+        }
+
+        a {
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        
+        h2 {
+            padding: 4rem 2rem;
+        }
+        
+        img {
+            padding: 3rem 2rem 1rem 2rem;
+            max-width: 128px;
+            max-height: 128px;
+            transition: filter 0.5s;
+
+            &:hover {
+                filter: brightness(0.9);
+            }
+        }
+    }
+}
+
+.optionsBar {
+    list-style: none;
+    display: flex;
+    background: var(--gray-200);
+    height: 5rem;
+
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+
+
+    button:hover {
+        border-bottom: 3px solid var(--gray-100);
+    }
+
+    button {
+
+        background: transparent;
+        border: none;
+        
+        padding: 1.5rem;
+        display: grid;
+        transition: border-color 0.2s;
+        border-bottom: 3px solid var(--gray-200);
+        
+        h2 {
+            justify-content: center;
+        }
+    }
+}

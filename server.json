@@ -1,0 +1,30 @@
+{
+  "episodes": [
+    {
+      "id": "832rhde9oy93r8",      
+      "title": "Camiseta Moon",
+      "price": 40.99,
+      "published_at": "2021-01-22 16:35:40",
+      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/opensource.jpg",
+      "description": "<p>Camiseta feita com tecido totalmente artesanal, fabricada com algodão 99%</p>",
+      "file": {
+        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/opensource.m4a",
+        "type": "audio/x-m4a",
+        "duration": 3981
+      }
+    },
+    {
+      "id": "9328yrfif32h9f",      
+      "title": "Camiseta Yourself",
+      "price": 40.99,
+      "published_at": "2021-01-15 13:00:00",
+      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/funcional.jpg",
+      "description": "<p>Camiseta feita com tecido totalmente artesanal, fabricada com algodão 99%, disponível em branco, azul e preto</p>\n",
+      "file": {
+        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/funcional.m4a",
+        "type": "audio/x-m4a",
+        "duration": 4237
+      }
+    }
+  ]
+}
