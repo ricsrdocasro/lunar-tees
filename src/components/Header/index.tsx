@@ -4,11 +4,6 @@ import Link from "next/link";
 import styles from "./styles.module.scss";
 
 export function Header() {
-    const currentDate = format(new Date(), 'EEEEEE, d MMMM',{
-        locale: ptBR
-    });
-
-
     return (
         <div>
             <header className={styles.HeaderContainer}>
@@ -19,7 +14,7 @@ export function Header() {
                 </Link>
 
                 <div className={styles.searchBar}>
-                    
+
                 </div>
 
                 <div className={styles.comprasContainer}>
@@ -46,12 +41,12 @@ export function Header() {
                 <h2>Sobre</h2>
             </button>
             </Link>
-            <Link href={"/pages/capitaosovietico"}>
+            <Link href={"/pages/sobre"}>
             <button type="button">
                 <h2>Sobre</h2>
             </button>
             </Link>
-            <Link href={"/pages/portfolio"}>
+            <Link href={"/pages/sobre"}>
             <button type="button">
                 <h2>Sobre</h2>
             </button>
