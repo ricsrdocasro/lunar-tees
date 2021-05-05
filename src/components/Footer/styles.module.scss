@@ -1,0 +1,51 @@
+.footer {
+    height: 8rem;
+    border-top: 1px solid var(--gray-100);
+    justify-content: center;
+    display: flex;
+
+    img {
+        margin-right: 30vw;
+    }
+    
+    .navegar {
+        display: flex;
+        padding: 1.5rem 2rem;
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline black;
+        }
+
+        ul {
+            padding: 0 2rem;
+        }
+    }
+
+    .redes {
+
+        padding: 1.5rem 2rem;
+
+        .icons {
+
+            display: flex;
+
+            button {
+                
+                margin-top: 0.15rem;
+                border: none;
+                background: transparent;
+
+                img {
+                    
+                    margin-right: 1rem;
+                    max-width: 24px;
+
+                }
+            }
+        }
+    }
+}

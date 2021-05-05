@@ -1,0 +1,49 @@
+.sobre {
+    .parteSobre {
+        padding: 3rem 4rem;
+
+        p {
+            text-align: justify;
+            font-size: large;
+        }
+    }
+
+    .parteQuemSomos {
+        padding: 1rem 4rem 4rem 4rem;
+
+        p {
+            text-align: justify;
+            font-size: large;
+        }
+
+        ul {
+            padding: 2rem 4rem 12rem 4rem;
+            list-style-type: none;            
+            display: flex; 
+        }
+
+        li {
+            display: inline;
+            padding: 0rem 2rem;
+        } 
+
+        button {
+
+            border: none;
+            background: transparent;
+
+            img {
+                margin-top: 0.5rem;
+                border-radius: 0rem;
+                max-width: 32px;
+            }
+        }
+        
+        img {
+            max-width: 256px;
+            max-height: 256px;
+            border-radius: 1.5rem;
+        }
+        
+    }
+}

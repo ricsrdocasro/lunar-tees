@@ -1,14 +1,13 @@
-import { GetStaticProps } from 'next';
-import { format, parseISO } from 'date-fns';
-import Image from 'next/image';
-import Link from 'next/link';
-import ptBR from 'date-fns/locale/pt-BR'
-import { api } from '../services/api';
 import styles from './home.module.scss';
 import Head from 'next/head';
-import { Slide } from 'react-slideshow-image';
+import Image from 'next/image';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import Slider from "react-slick";
 
 export default function Home() {
+
 
   return(
     <div>
@@ -17,10 +16,31 @@ export default function Home() {
           <title>Home</title>
         </Head>
 
-        <section className={styles.latestEpisodes}> 
-          <div className={styles.thumbnailContainer}>
-          </div>
-        </section>
+        <div className={styles.carousel}>
+          <Slider
+            width={150}
+            dots={false}
+            slidesToShow={1}
+            slidesToScroll={1}
+            autoplay={true}
+            autoplaySpeed={3000}
+          >
+            <Image
+              width={150}
+              height={150}
+              objectFit="cover"
+              src="/gabi-foto.jpg" 
+              alt="Gabriela"
+            />
+            <Image 
+              width={150}
+              height={150}
+              objectFit="cover"
+              src="/ricardo-foto(eu).jpg" 
+              alt="Gabriela"
+            />
+          </Slider>
+        </div>
       </div>
     </div>
   );

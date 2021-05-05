@@ -14,7 +14,7 @@ export function Header() {
                 </Link>
 
                 <div className={styles.searchBar}>
-
+                    
                 </div>
 
                 <div className={styles.comprasContainer}>
