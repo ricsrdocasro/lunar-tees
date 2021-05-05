@@ -8,6 +8,8 @@ import Slider from "react-slick";
 
 export default function Home() {
 
+  const arrowLeft = '/arrow-left.png'
+  const arrowRight = '/arrow-right.png'
 
   return(
     <div>
@@ -18,27 +20,65 @@ export default function Home() {
 
         <div className={styles.carousel}>
           <Slider
-            width={150}
+            arrows={true}
+            className="center"
+            centerPadding="60px"
+            focusOnSelect={true}
             dots={false}
-            slidesToShow={1}
+            slidesToShow={3}
             slidesToScroll={1}
+            infinite={true}
             autoplay={true}
             autoplaySpeed={3000}
           >
-            <Image
-              width={150}
-              height={150}
-              objectFit="cover"
-              src="/gabi-foto.jpg" 
-              alt="Gabriela"
-            />
-            <Image 
-              width={150}
-              height={150}
-              objectFit="cover"
-              src="/ricardo-foto(eu).jpg" 
-              alt="Gabriela"
-            />
+            <div>
+              <Image 
+                width={450}
+                height={500}
+                src="/foto-carrosel.jpg"
+                objectFit='cover'
+              />
+            </div>
+            <div>
+              <Image 
+                width={450}
+                height={500}
+                src="/foto-carrosel2.jpg"
+                objectFit='cover'
+              />
+            </div>
+            <div>
+              <Image 
+                width={450}
+                height={500}
+                src="/foto-carrosel3.jpg"
+                objectFit='cover'
+              />
+            </div>
+            <div>
+              <Image 
+                width={450}
+                height={500}
+                src="/foto-carrosel4.jpg"
+                objectFit='cover'
+              />
+            </div>
+            <div>
+              <Image 
+                width={450}
+                height={500}
+                src="/foto-carrosel5.jpg"
+                objectFit='cover'
+              />
+            </div>
+            <div>
+              <Image 
+                width={450}
+                height={500}
+                src="/foto-carrosel6.jpg"
+                objectFit='cover'
+              />
+            </div>
           </Slider>
         </div>
       </div>

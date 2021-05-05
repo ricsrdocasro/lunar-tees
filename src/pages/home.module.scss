@@ -1,6 +1,15 @@
 .homepage {
     padding: 0 4rem;
     height: calc(100vh - 6.5rem);
+    display: inline-block;
+    justify-content: center;
+
+    img {
+        margin-left: 30vw;
+        margin-top: 2rem;
+        max-width: 512px;
+        border-radius: 1.5rem;
+    }
 
     h2 {
         margin-top: 3rem;
@@ -10,16 +19,9 @@
 
 .carousel {
     
+    margin-left: 2vw;
     padding: 2rem;
     max-width: 90vw;
     max-height: 65vh;
-
-    .slider {
-
-        justify-content: center;
-        background-image: src('/gabi-foto.jpg');
-
-    }
-    
 
 }

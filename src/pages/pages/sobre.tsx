@@ -36,7 +36,7 @@ export default function sobre() {
                     <li>
                         <h1>Ricardo de Castro</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi, iste vel aliquid neque, quam earum ab labore veritatis velit sed delectus quo sequi vitae molestias? Exercitationem nulla beatae magni.</p>
-                        <Link href="https://www.instagram.com/ricsrdo.casro/">
+                        <Link href="https://www.instagram.com/ricarso.casro/">
                             <button>
                                 <img src="/instagram-icon.png" alt="Instagram"/>
                             </button>
