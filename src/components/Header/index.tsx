@@ -32,29 +32,31 @@ export function Header() {
 
             <header className={styles.optionsBar}>
             <Link href={"/pages/sobre"}>
-            <button type="button">
-                <h2>Sobre</h2>
-            </button>
+                <button type="button">
+                    <h2>Sobre</h2>
+                </button>
             </Link>
-            <Link href={"/pages/sobre"}>
-            <button type="button">
-                <h2>Sobre</h2>
-            </button>
+            <Link href={"/products/all"}>
+                <button type="button">
+                    <h2>Produtos</h2>
+                </button>
             </Link>
-            <Link href={"/pages/sobre"}>
-            <button type="button">
-                <h2>Sobre</h2>
-            </button>
+            <Link href={"/"}>
+                <button type="button">
+                    <h2>Ofertas</h2>
+                </button>
             </Link>
-            <Link href={"/pages/sobre"}>
-            <button type="button">
-                <h2>Sobre</h2>
-            </button>
+            <Link href={"/products/lancamentos"}>
+                <button type="button">
+                    <h2>Lançamentos</h2>
+                </button>
             </Link>
-            <button type="button">
-                <h2>Sobre</h2>
-            </button>
-        </header>
-      </div>
+            <Link href={"/"}>
+                <button type="button">
+                    <h2>Contato</h2>
+                </button>
+            </Link>
+            </header>
+        </div>
     ); 
 }

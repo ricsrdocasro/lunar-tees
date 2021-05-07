@@ -13,7 +13,7 @@ export default function Footer(){
                     <a href="/">
                         <h5>Home</h5>
                     </a>
-                    <a href="/">
+                    <a href="/products/all">
                         <h5>Todos os produtos</h5>
                     </a>
                 </ul>

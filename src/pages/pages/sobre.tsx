@@ -22,7 +22,7 @@ export default function sobre() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maiores quos perspiciatis commodi eaque ut obcaecati atque, sunt minima corrupti a laudantium est nobis ab aliquid quas blanditiis assumenda quo.
                 </p>
                 <ul>
-                    <img src='/gabi-foto.jpg'/>
+                    <img src='/gabi-foto.jpg' alt=''/>
                     <li>
                         <h1>Gabriela de Castro</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi, iste vel aliquid neque, quam earum ab labore veritatis velit sed delectus quo sequi vitae molestias? Exercitationem nulla beatae magni.</p>

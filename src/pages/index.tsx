@@ -6,6 +6,9 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
 
+
+
+
 export default function Home() {
 
   const arrowLeft = '/arrow-left.png'
@@ -18,8 +21,13 @@ export default function Home() {
           <title>Home</title>
         </Head>
 
+        <div className={styles.title}>
+          <h1>Produtos</h1>
+        </div>
+
         <div className={styles.carousel}>
           <Slider
+            plugins={['arrows']}
             arrows={true}
             className="center"
             centerPadding="60px"
