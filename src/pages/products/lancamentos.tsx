@@ -3,6 +3,7 @@ import Link from "next/link"
 import { GetStaticProps } from "next"
 import { api } from "../../services/api"
 import Image from "next/image"
+import _products from "../../../server.json";
 
 type products = {
     slug: string; 
@@ -50,14 +51,8 @@ function allProducts({productList}:HomeProps) {
 }
 
 export const getStaticProps : GetStaticProps = async () => {
-    const { data } = await api.get("products", {
-      params: {
-        _limit: 3,
-        _sort: "published_at",
-      }
-    })
   
-    const products = data.map(product => {
+    const products = _products.map(product => {
       return {
         slug: product.slug,
         title: product.title, 
@@ -79,9 +74,3 @@ export const getStaticProps : GetStaticProps = async () => {
   }
 
 export default allProducts
-
-export function page(allProducts){
-    return (
-        allProducts()
-    )
-}

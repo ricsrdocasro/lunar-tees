@@ -1,8 +1,8 @@
-{
-  "products": [
+[
     {
       "slug": "live-by-the-sun-love-by-the-moon",      
       "title": "Live by the sun, love by the moon",
+      "string_price": "40,99",
       "price": 40.99,
       "published_at": "2021-01-22 16:35:40",
       "thumbnail": "https://instagram.fpfb5-1.fna.fbcdn.net/v/t51.2885-15/e35/172146132_278830977171386_2698768648360209407_n.jpg?tp=1&_nc_ht=instagram.fpfb5-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=annmLB4-EO8AX_6MS4-&edm=AP_V10EBAAAA&ccb=7-4&oh=ac3ac00fb1a62adf01d21b79bc820de0&oe=60BBEB07&_nc_sid=4f375e",
@@ -11,6 +11,7 @@
     {
       "slug": "believe-in-your-visions",       
       "title": "Believe in your visions",
+      "string_price": "50,99",
       "price": 50.99,
       "published_at": "2021-01-15 13:00:00",
       "thumbnail": "https://instagram.fpfb5-1.fna.fbcdn.net/v/t51.2885-15/e35/169952062_255479322947824_3940780467201064287_n.jpg?tp=1&_nc_ht=instagram.fpfb5-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=qV-F7QbdcCMAX_zExs_&edm=AP_V10EBAAAA&ccb=7-4&oh=155cf2ccfb04453b8fe06fd3b64ca855&oe=60BB11DE&_nc_sid=4f375e",
@@ -19,6 +20,7 @@
     {
       "slug": "cosmos",       
       "title": "Cosmos",
+      "string_price": "59,90",
       "price": 59.90,
       "published_at": "2021-05-07 18:00:00",
       "thumbnail": "https://instagram.fpfb5-1.fna.fbcdn.net/v/t51.2885-15/e35/172042801_1156306141504396_1041460484714602894_n.jpg?tp=1&_nc_ht=instagram.fpfb5-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=RQ7p2vqf7S4AX_Us7Gw&edm=AP_V10EBAAAA&ccb=7-4&oh=1c5c8c5503d504237d2190a9022607a6&oe=60B9F843&_nc_sid=4f375e",
@@ -27,10 +29,10 @@
     {
       "slug": "savage-mind",       
       "title": "Savage Mind",
+      "string_price": "45,90",
       "price": 45.90,
       "published_at": "2021-05-07 19:00:00",
       "thumbnail": "https://instagram.fpfb5-1.fna.fbcdn.net/v/t51.2885-15/e35/181633823_217470683115446_5296110005610620578_n.jpg?tp=1&_nc_ht=instagram.fpfb5-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=14Y2BzcLwYUAX-_bzCP&edm=AP_V10EBAAAA&ccb=7-4&oh=4110510f8a6530ebc25319dd51a1d089&oe=60BA8F13&_nc_sid=4f375e",
       "description": "<p>Camiseta feita com tecido totalmente artesanal, fabricada com algodão 99%, disponível em branco, azul e preto</p>\n"
     }
-  ]
-}
+]
